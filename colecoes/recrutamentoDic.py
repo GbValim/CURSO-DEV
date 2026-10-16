@@ -8,6 +8,10 @@ while contador < 5:
     candidato["nome"] = nomeCandidato
 
     idadeCandidato = int(input("Digite a idade do candidato: "))
+    if idadeCandidato < 18:
+        print("Só pode participar do processo quem tem 18 anos ou mais.")
+        continue
+
     candidato["idade"] = idadeCandidato
 
     
