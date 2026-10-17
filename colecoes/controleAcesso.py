@@ -11,6 +11,8 @@ usuario_analista = {"AUTH_READ", "LOG_EXPORT"}
 usuario_techlead = {"AUTH_READ", "AUTH_WRITE", "DB_ADMIN",
 "LOG_EXPORT", "BILLING_ACCESS"}
 
+
+
 # 1. Identifique se cada um dos usuários tem acesso permitido à rota (todas as
 # permissões de permissoes_rota devem estar contidas no conjunto do
 # usuário).
